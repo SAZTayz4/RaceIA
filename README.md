@@ -15,9 +15,9 @@ Ce projet explore l'utilisation de l'IA pour piloter et contrôler une voiture e
 
 ## **Technologies utilisées**
 
-- Langages de programmation : Python, JavaScript, etc.
+- Langages de programmation : Python, JavaScript, Go etc.
 - Frameworks d'IA : TensorFlow, PyTorch, etc.
-- Outils IoT : Raspberry Pi, Arduino, etc.
+- Outils IoT : Raspberry Pi, etc.
 
 ## **Installation**
 
