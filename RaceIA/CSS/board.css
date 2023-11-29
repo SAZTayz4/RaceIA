@@ -1,0 +1,37 @@
+.main-div {
+    margin-top: 170px;
+    width: auto;
+    display: flex;
+    padding: 0 10px;
+}
+
+.box {
+    background-color: var(--gray1);
+    border: var(--pink-text) solid 5px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 200px;
+    width: 400px;
+    margin: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteneur-p {
+    display: flex;
+    border: 5px solid aliceblue;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.bimg {
+    height: auto;
+    width: 100%;
+}

@@ -1,0 +1,134 @@
+:root {
+    font-size: 16px;
+    --red-text: rgb(182, 0, 48);
+    --pink-text: rgb(255, 0, 128);
+    --white-text: rgb(255, 255, 255);
+    --almost-black: #202020;
+    --black-gray: #181819;
+    --gray-black: #202225;
+    --gray1: #292b2f;
+    --gray2: #2f3136;
+    --gray3: #37393f;
+    --gray-white: #9da1a4;
+    --transition-speed: 600ms;
+}
+
+body {
+    margin: 0;
+    background-color: var(--gray2);
+    color: var(--white-text);
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--gray-black);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--pink-text);
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--gray-black);
+    border-bottom: 5px solid var(--almost-black);
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.logo {
+    aspect-ratio: 1/1;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    height: 100%;
+    width: 5rem;
+    position: fixed;
+    background-color: var(--gray-black);
+    transition: width 200ms ease;
+    border-right: 5px solid var(--almost-black);
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--gray-white);
+    text-decoration: none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: var(--transition-speed);
+}
+
+#active {
+    filter: grayscale(0%) opacity(1);
+    color: var(--white-text);
+}
+
+.nav-link:hover {
+    filter: grayscale(0%) opacity(1);
+    color: var(--red-text);
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    min-height: 2rem;
+    margin: 0 1.5rem;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.navbar:hover .link-text {
+    display: block;
+}
+
+.fa-primary {
+    color: var(--pink-text);
+}
+
+.fa-secondary {
+    color: var(--pink-text);
+}
+
+.fa-primary,
+.fa-secondary {
+    transition: var(--transition-speed);
+}
+
+.main-div {
+    margin-top: 170px;
+}
