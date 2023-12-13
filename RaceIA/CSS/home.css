@@ -1,0 +1,50 @@
+.main-div {
+    margin-top: 170px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.md {
+    width: 98%;
+    height: 600px; /*hauteur de base */
+    background-color: blanchedalmond;
+    border: 3px solid var(--pink-text);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+#desc {
+    border-bottom: 5px solid var(--gray1);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#team, #dev {
+    border-top: none;
+    border-bottom: 5px solid var(--gray1);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#fonctionnement {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.mddesc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

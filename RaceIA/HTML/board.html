@@ -38,16 +38,52 @@
 
     <main>
         <div class="main-div">
-            <div class="box"><canvas id="myChart1"></canvas></div>
-            <div class="box"><canvas id="myChart2"></canvas></div>
-            <div class="box"><canvas id="myChart3"></canvas></div>
+            <div class="box" data-modal-target="#graph1"><canvas id="myChart1"></canvas></div>
+            <div class="box" data-modal-target="#graph2"><canvas id="myChart2"></canvas></div>
+            <div class="box" data-modal-target="#graph3"><canvas id="myChart3"></canvas></div>
         </div>
 
+        <!--div a separer en 2 pour la camera du robot et le tableau des temps-->
         <div class="conteneur-p">
             <img class="bimg" src="../Ressources/image/voiture.jpg">
         </div>
 
     </main>
+
+    <div class="gmodal" id="graph1">
+        <div class="gmodal-header">
+            <div class="title">Graphique 1</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="gmodal-body">
+            <div class="gmodal-graph"><canvas id="modalChart1"></canvas></div>
+            <div class="gmodal-text"></div>
+        </div>
+    </div>
+
+    <div class="gmodal" id="graph2">
+        <div class="gmodal-header">
+            <div class="title">Graphique 2</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="gmodal-body">
+            <div class="gmodal-graph"><canvas id="modalChart2"></canvas></div>
+            <div class="gmodal-text"></div>
+        </div>
+    </div>
+
+    <div class="gmodal" id="graph3">
+        <div class="gmodal-header">
+            <div class="title">Graphique 3</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="gmodal-body">
+            <div class="gmodal-graph"><canvas id="modalChart3"></canvas></div>
+            <div class="gmodal-text"></div>
+        </div>
+    </div>
+    
+    <div id="overlay"></div>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
