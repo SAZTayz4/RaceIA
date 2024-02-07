@@ -6,9 +6,9 @@
     padding: 0 10px;
 }
 
-.md {
+.md #desc, #team, #dev, #fonctionnement {
     width: 98%;
-    height: 600px; /*hauteur de base */
+    height: 600px;
     background-color: blanchedalmond;
     border: 3px solid var(--pink-text);
     border-radius: 10px;
@@ -23,6 +23,7 @@
     border-bottom: 5px solid var(--gray1);
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+
 }
 
 #team, #dev {
