@@ -21,5 +21,5 @@ Ce projet explore l'utilisation de l'IA pour piloter et contrôler une voiture e
 
 ## **Installation**
 
-1. Clonez le dépôt : `git clone https://github.com/votre_utilisateur/RaceIA.git`
+1. Clonez le dépôt : `git clone https://github.com/SAZTayz4/RaceIA.git`
 2. Allez dans le répertoire : `cd RaceIA`
